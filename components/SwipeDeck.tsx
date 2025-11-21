@@ -69,11 +69,11 @@ export const SwipeDeck: React.FC = () => {
                 Contact Agents
             </a>
             <button 
-                onClick={() => window.open('https://jobhunter.ai/store', '_blank')} // Mock link
-                className="flex items-center justify-center w-full py-4 border border-hunter-purple text-hunter-purple font-bold rounded uppercase tracking-wider hover:bg-hunter-purple/10 transition-colors"
+                disabled
+                className="flex items-center justify-center w-full py-4 border border-gray-700 text-gray-500 font-bold rounded uppercase tracking-wider cursor-not-allowed opacity-60"
             >
                 <ShoppingBag className="w-5 h-5 mr-2" />
-                Buy Priority Pass
+                Priority Pass (Coming Soon)
             </button>
         </div>
 
